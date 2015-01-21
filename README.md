@@ -6,7 +6,7 @@ The SDK allows you to display our Offer Wall within your application. The Offer 
 # Prerequisites
 In order to integrate the SDK, you must complete the following prerequisites:
  1. Use the Eclipse IDE for building your Android application
- 1. Have created an account at funnke.com
+ 1. Have created an account at http://info.funnke.com/create-your-account-now?source=Github
  1. Have registered an application for that account at http://partners.funnke.com
  1. Have a uniquely generated Application ID and Secret for your application
  1. Downloaded a copy of the current SDK available from https://github.com/funnkeadmin/funnkebeta
