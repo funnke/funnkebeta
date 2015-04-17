@@ -9,7 +9,7 @@ In order to integrate the SDK, you must complete the following prerequisites:
  1. Have created an account at <a href='http://info.funnke.com/create-your-account-now?source=Github'> Funnke.com </a>
  1. Have registered an application for that account at http://partners.funnke.com
  1. Have a uniquely generated Application ID and Secret for your application
- 1. Downloaded a copy of the current SDK available from https://github.com/funnkeadmin/funnkebeta
+ 1. Downloaded a copy of the current SDK available from https://github.com/funnke/funnkebeta
 
 # Steps to Follow
 
@@ -22,7 +22,7 @@ In order to integrate the SDK, you must complete the following prerequisites:
 1. In the Import dialog, select File System.  
 
 
-![ScreenShot](https://raw.github.com/funnkeadmin/funnkebeta/master/images/image001.png)
+![ScreenShot](https://raw.github.com/funnke/funnkebeta/master/images/image001.png)
 
 
 
@@ -36,7 +36,7 @@ In order to integrate the SDK, you must complete the following prerequisites:
 
 
 
-![ScreenShot](https://raw.github.com/funnkeadmin/funnkebeta/master/images/image003.png)
+![ScreenShot](https://raw.github.com/funnke/funnkebeta/master/images/image003.png)
 
 ### Step 2: Updating your Android manifest file.
 The following permissions must be enabled in the ``` AndroidManifest.xml file ```. These permissions are enabled in order to allow the following important functions:  
@@ -47,11 +47,11 @@ The following permissions must be enabled in the ``` AndroidManifest.xml file ``
  + Access user location for relevant localized offers.  
  + Send invitation SMS messages.  
 
-![ScreenShot](https://raw.github.com/funnkeadmin/funnkebeta/master/images/image005.png)
+![ScreenShot](https://raw.github.com/funnke/funnkebeta/master/images/image005.png)
 
 The instructions below can be copied directly to your project.  
 
-![ScreenShot](https://raw.github.com/funnkeadmin/funnkebeta/master/images/image007.png)
+![ScreenShot](https://raw.github.com/funnke/funnkebeta/master/images/image007.png)
 
 1. Double-click on the ``` AndroidManifest.xml ``` file in the open project area.  
 1. Select the ``` Androidmanifest.xml ``` tab to view and edit.  
@@ -293,13 +293,13 @@ In order to use the plugin, you must complete the following prerequisites:
  1. Have created an account at funnke.com
  1. Have registered an application for that account at http://partners.funnke.com
  1. Have a uniquely generated Application ID and Secret Key for your application
- 1. Downloaded a copy of the plugin package available https://github.com/funnkeadmin/funnkebeta/blob/master/unityplugin/FunnkePlugin.unitypackage
+ 1. Downloaded a copy of the plugin package available https://github.com/funnke/funnkebeta/blob/master/unityplugin/FunnkePlugin.unitypackage
 
 ### Steps to Follow
  1. Import the package to your project.
  1. Once imported you will be able to drag a prefab object called FunnkeManager, right into your scene's hierarchy.
  1. The prefab requires the Application ID and Secret Key provided by the Funnke web portal.  Enter your app keys or use these test keys:  App Key: 1B634D952BED4D64849A15DB4E072B3F Secret Key EF8FAA5CADBE4537B1F0EBA3611B3BB4
- ![ScreenShot](https://raw.github.com/funnkeadmin/funnkebeta/master/images/FunnkeUnity.png)
+ ![ScreenShot](https://raw.github.com/funnke/funnkebeta/master/images/FunnkeUnity.png)
  1. And that's it, the FunnkeManager initializes it self at run time and creates a session, you just need to call the FunnkeManager methods as needed.
 
 ```
