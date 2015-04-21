@@ -10,6 +10,8 @@ In order to integrate the SDK, you must complete the following prerequisites:
  1. Have registered an application for that account at http://partners.funnke.com
  1. Have a uniquely generated Application ID and Secret for your application
  1. Downloaded a copy of the current SDK available from https://github.com/funnke/funnkebeta
+ 1. SDK requires google play services SDK to be referenced in project. Follow these instructions:
+		https://developer.android.com/google/play-services/setup.html
 
 # Steps to Follow
 
@@ -294,11 +296,12 @@ In order to use the plugin, you must complete the following prerequisites:
  1. Have registered an application for that account at http://partners.funnke.com
  1. Have a uniquely generated Application ID and Secret Key for your application
  1. Downloaded a copy of the plugin package available https://github.com/funnke/funnkebeta/blob/master/unityplugin/FunnkePlugin.unitypackage
+ 1. This plugin needs Google Play Services SDK, which is already included int the package.  You may update the Google Play Service Lib as needed.
 
 ### Steps to Follow
  1. Import the package to your project.
  1. Once imported you will be able to drag a prefab object called FunnkeManager, right into your scene's hierarchy.
- 1. The prefab requires the Application ID and Secret Key provided by the Funnke web portal.  Enter your app keys or use these test keys:  App Key: 1B634D952BED4D64849A15DB4E072B3F Secret Key EF8FAA5CADBE4537B1F0EBA3611B3BB4
+ 1. The prefab requires the Application ID and Secret Key provided by the Funnke web portal.  Enter your app keys.
  ![ScreenShot](https://raw.github.com/funnke/funnkebeta/master/images/FunnkeUnity.png)
  1. And that's it, the FunnkeManager initializes it self at run time and creates a session, you just need to call the FunnkeManager methods as needed.
 
