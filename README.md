@@ -300,10 +300,10 @@ In order to use the plugin, you must complete the following prerequisites:
 
 ### Steps to Follow
  1. Import the package to your project.
- 1. Once imported you will be able to drag a prefab object called FunnkeManager, right into your scene's hierarchy.
+ 1. Once imported you will be able to drag a prefab object called FunnkePlugin, right into your scene's hierarchy.
  1. The prefab requires the Application ID and Secret Key provided by the Funnke web portal.  Enter your app keys.
  ![ScreenShot](https://raw.github.com/funnke/funnkebeta/master/images/FunnkeUnity.png)
- 1. And that's it, the FunnkeManager initializes it self at run time and creates a session, you just need to call the FunnkeManager methods as needed.
+ 1. And that's it, the FunnkePlugin initializes it self at run time and creates a session, you just need to call the FunnkePlugin methods as needed.
 
 ```
 FunnkePlugin.Instance.OpenOfferWall();
