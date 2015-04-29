@@ -313,6 +313,6 @@ FunnkePlugin.Reward[] rewards = FunnkePlugin.Instance.GetPendingRewards();
 foreach (FunnkePlugin.Reward reward in rewards)
 {
      //Award points to user
-     FunnkePlugin.Instance.CompleteReward(reward.Key);
+     FunnkePlugin.Instance.CompleteReward(reward.transactionId);
 }
 ```
